@@ -42,15 +42,11 @@ if sLowGrade == "Y":
 
     #Remove the lowest value from the array
     test.remove(minimum)
-  
+    nArrayLength = nArrayLength - 1
+ 
     #Sum the values of the array
     for i in test:
         nArraySum += i
-   
-    #Recalculate how many elements are in the array
-    nArrayLength = 0 #Reset the array length since elements were removed rather than nArrayLength = nArrayLength - 1 for each remove
-    for i in test:
-        nArrayLength = nArrayLength + 1
    
     nFinalGrade = nArraySum / nArrayLength #Calculate the Average of the Grades using the Sum and Length of the array
     print(sNAME + " test average is: " + '{:.1f}'.format(nFinalGrade)) #Print the users final grade
@@ -70,8 +66,6 @@ else:
 #Give user a letter grade base on the final grade average
 if nFinalGrade >= 97.0:
     sLetterGrade = "A+"
-elif nFinalGrade >= 94.0 and nFinalGrade <= 96.9:
-    sLetterGrade = "A"
 elif nFinalGrade >= 94.0 and nFinalGrade <= 96.9:
     sLetterGrade = "A"
 elif nFinalGrade >= 90.0 and nFinalGrade <= 93.9:
@@ -95,18 +89,6 @@ elif nFinalGrade >= 64.0 and nFinalGrade <= 66.9:
 elif nFinalGrade >= 60.0 and nFinalGrade <= 63.9:
     sLetterGrade = "D-"
 else:
-    sLetterGrade = "F" #Since 60.0 and above has a condition, a grade of less than 59.9 is implied to be an 'F'.\
+    sLetterGrade = "F" #Since 60.0 and above has a condition, a grade of less than 60.0 is implied to be an 'F'.
 
 print("Letter Grade for the test is: " + sLetterGrade)
-
-#if sLowGrade == "Y":
-#   if Test1 <= Test2 and Test1 <= Test3 and Test1 <= Test4
-        #average = float((Test 2 + Test3 + Test4) / 3)
-#   elif Test2 <= Test1 and Test2 <= Test3 and Test2 <= Test4
-        #average = float((Test1 + Test3 + Test4) / 3)
-#   elif Test3 <= Test1 and Test3 <= Test2 and Test3 <= Test4
-        #average = float((Test1 + Test2 + Test4) / 3)
-#   else
-        #average = float((Test1 + Test2 + Test3) / 3)
-#else:
-    #average = float((Test1 + Test2 + Test3 + Test4) / 4)
