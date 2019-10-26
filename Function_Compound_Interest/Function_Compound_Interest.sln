@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Function_Compound_Interest", "Function_Compound_Interest\Function_Compound_Interest.pyproj", "{F84B1E71-13A5-4FF4-9D0F-6C7B58F35CC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F84B1E71-13A5-4FF4-9D0F-6C7B58F35CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84B1E71-13A5-4FF4-9D0F-6C7B58F35CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {006D08FB-90B1-45D7-B39E-C3FD83D243E1}
+	EndGlobalSection
+EndGlobal
