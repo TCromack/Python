@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PaintJob", "PaintJob\PaintJob.pyproj", "{7327F38C-5770-49C7-9F79-B3CB16B8241B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7327F38C-5770-49C7-9F79-B3CB16B8241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7327F38C-5770-49C7-9F79-B3CB16B8241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7116BE3E-5DA0-4E3A-A711-DF85E3B1F71B}
+	EndGlobalSection
+EndGlobal

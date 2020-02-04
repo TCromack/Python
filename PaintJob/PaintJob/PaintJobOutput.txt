@@ -1,0 +1,6 @@
+Gallons of Paint needed:   5
+Hours of labor: 40.0
+Labor Charges: 1400.00
+Paint Charges: 133.75
+Total Tax: 92.02
+Total Cost: 1625.78
